@@ -14,6 +14,9 @@ a{
 header{
     width: 100%;
 }
+.background-body-desktop{
+    display: none;
+}
 .background-body img{
     margin: 50px 15px;
     width: 90%;
@@ -57,11 +60,31 @@ box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px
 }
 .container-img img{
     width: 180px;
+    
 }
 .container-img h3{
     font-size: 10px;
 }
 /* SECTION 1 TERMINADO */
+/* jobs */
+.jobs-container{
+    margin: 2.5rem 0;
+}
+.jobs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.jobs img{
+    width: 40px;
+    margin: 0.5rem;
+    border: solid 1px black;
+}
+.jobs-container h3{
+    text-align: center;
+}
+/* jobs terminado */
 /* COMIENZAN CARDS */
 .cards-text{
     font-family: "PT Sans";
@@ -78,7 +101,7 @@ margin: 20px 0;
 }
 
 .cards{
-    margin: 40px 0;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -96,15 +119,22 @@ margin: 20px 0;
 }
 /* TERMINAN CARDS */
 /* COMIENZA APARTADO CONTACTO */
+.contacto-container{
+    background-color: #cccdce;
+}
 .contacto-container h3{
     font-size: 30px;
     text-align: center;
 }
 .todo{
     display: flex;
+    justify-content: center; 
+}
+.todo li{
+    margin: 5px;
+    font-size: 15px;
 }
 .ubi1{
-    background-color: salmon;
     margin: 10px;
     width: 40%;
     height: 120px;
@@ -112,7 +142,6 @@ margin: 20px 0;
      
 }
 .ubi2{
-    background-color: aqua;
     margin: 10px;
 width: 40%;
 height: 120px;
@@ -121,8 +150,55 @@ text-align: center;
 }
 .iconos-contacto{
     font-size: 25px;
-    color: black;
+    background-color: #cccdce;
+   
 }
+.fa-brands.fa-instagram{
+    transition: all 0.3s;
+    transform: scale(1.2);
+    color: #f07167;
+      
+}
+.fa-brands.fa-facebook{
+    transition: all 0.3s;
+    transform:  scale(1.2);
+    color:#3b5998;
+}
+.fa-brands.fa-twitter{
+    transition: all 0.3s;
+    transform: scale(1.2);
+    color:#00acee;
+}
+.fa-brands.fa-whatsapp{
+    transition: all 0.3s;
+    transform: scale(1.2);
+    color:#25D366;
+}
+/* TERMINA APARTADO CONTACTO */
+/* COMIENZA FOOTER */
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+.pill{
+    font-size: 20px;
+    text-align: center;
+    animation: flooting 3s ease-in-out infinite;
+    animation-direction: alternate;
+    color: white;
+}
+@keyframes flooting {
+  0%{
+    transform: translateY(0);
+  }
+
+  100%{
+    transform: translateY(20px);
+
+  }  
+}
+
 }
 /* MEDIA 320 TERMINADO */
 
@@ -134,6 +210,9 @@ text-align: center;
     header{
         width: 100%;
     }
+    .background-body-desktop{
+        display: none;
+    }
     /* COMIENZA NAV */
     .navbar{
         display: flex;
@@ -143,6 +222,7 @@ text-align: center;
    .navbar h1{
     text-align: center;
     margin-top: 20px;
+    font-size: 30px;
    }
    .navbar img{
     width: 150px;
@@ -181,6 +261,26 @@ box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px
     margin: 50px;
 }
 /* TERMINA SECTION 1 */
+/* jobs */
+.jobs-container{
+    margin: 2.5rem 0;
+}
+.jobs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.jobs img{
+    width: 60px;
+    margin: 0.5rem;
+    border: solid 1px black;
+}
+.jobs-container h3{
+    text-align: center;
+}
+
+/* jobs terminado */
 /* COMIENZAN CARDS */
 .cards-text{
     font-family: "PT Sans";
@@ -219,6 +319,7 @@ margin: 20px 0;
 /* COMIENZA CONTACT US */
 .contacto-container{
     background-color: #cccdce;
+    border: solid 1px #cccdce;
 }
 .contacto-container h3{
     font-size: 30px;
@@ -297,5 +398,205 @@ footer{
 
   }  
 }
+/* TERMINA FOOTER */
+}
+/* MEDIA 375 TERMINADO  */
+
+/* COMIENZA MEDIA 768 */
+@media (min-width: 768px){
+    .background-body{
+        display: none;
+    }
+    .background-body-desktop{
+        display: flex;
+        margin: 50px 0;
+    }
+    .background-body-desktop img{
+        width: 100%;
+    }
+    .navbar li{
+        font-size: 28px;
+        
+}
+.navbar h1{
+    font-size: 40px;
+
+}
+.container-img img{
+    width: 350px;
+    padding: 5px;
+}
+.todo li{
+    font-size: 21px;
+}
+.titulo-tshirt{
+    font-size: 30px;
+}
+.jobs img{
+    width: 70px;
+    border: solid 0.5px black;
+}
+
+/* contact us */
+.ubi1{
+    background-color: #b3b2b2;
+    width: 250px;
+    height: 180px;
+    border-radius: 20px;
+   }
+   .ubi1 ul li{
+    margin-top: 20px;
+   }
+   .locations h4{
+    font-size: 25px;
+   }
    
+   .ubi2{
+    background-color: #b3b2b2;
+    width: 250px;
+    height: 180px;
+    border-radius: 20px;
+    
+   }
+   .ubi2 ul li{
+    margin-top: 20px;
+   }
+   /*  termina contact us */
+/* MEDIA 768 TERMINADO */
+}
+
+
+
+
+
+
+/* COMIENZA MEDIA 1024 */
+@media (min-width:1024px){
+   .cards{
+    display: flex;
+    flex-direction: row;
+   }
+   /* comienza contact us */
+   .ubi1{
+    background-color: #b3b2b2;
+    width: 250px;
+    height: 180px;
+    border-radius: 20px;
+   }
+   .ubi1 ul li{
+    margin-top: 20px;
+   }
+   .locations h4{
+    font-size: 25px;
+   }
+   
+   .ubi2{
+    background-color: #b3b2b2;
+    width: 250px;
+    height: 180px;
+    border-radius: 20px;
+    
+   }
+   .ubi2 ul li{
+    margin-top: 20px;
+   }
+   /* termina cotact us */
+   /* empieza navbar */
+   .navbar li:hover{
+    background-color: #ca6702;
+    color: white;
+    border-radius: 15px;
+    transition: all 1s;
+   }
+   .navbar li{
+    cursor: pointer;
+   }
+/* termina navbar */
+.jobs-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.jobs-container h3{
+    font-size: 60px;
+    margin: 5rem;
+}
+
+   .jobs img{
+    padding: 1rem;
+    width: 200px;
+    height: 120px;
+    margin: 0 0.5rem 5rem 0.5rem;
+    border: solid 1px black;
+   }
+   .jobs img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+   }
+}
+/* TERMINA MEDIA 1024 */
+
+
+
+
+
+
+/* COMIENZA MEDIA 1440 */
+@media (min-width: 1440px){
+    .navbar{
+        flex-direction: row;
+        justify-content: space-between;
+        height: 50px;
+        margin-top: 2rem;      
+    }
+    .navbar img{
+        display: none;
+    }
+    .navbar h1{
+        margin: 0 25px;
+        
+        
+    }
+    /* nav terminado */
+    /* comienza section 1 */
+    .container-img{
+       display: flex;
+    }
+    .container-img img{
+        width: 250px;
+    }
+    /* termina section 1 */
+    /* empiezan cards */
+    .cards-text p{
+        font-size: 30px;
+    }
+    .title-cards{
+        font-size: 35px;
+    }
+   /* terminan cards */
+   /* jobs */
+   .jobs-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.jobs-container h3{
+    font-size: 80px;
+    margin: 5rem;
+}
+
+   .jobs img{
+    padding: 1rem;
+    width: 230px;
+    height: 120px;
+    margin: 0 0.5rem 5rem 0.5rem;
+    border: solid 1px black;
+   }
+   .jobs img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+   }
+
 }
