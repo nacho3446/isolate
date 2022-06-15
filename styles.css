@@ -1,0 +1,301 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lobster&family=Noto+Sans&family=Open+Sans&family=PT+Sans+Narrow&family=Playfair+Display:ital@1&display=swap');
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+@media (max-width: 320px){
+header{
+    width: 100%;
+}
+.background-body img{
+    margin: 50px 15px;
+    width: 90%;
+    height: 280px;
+    -webkit-box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, inset -5px 2px 50px 50px rgba(255,255,255,0.45); 
+box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, inset -5px 2px 50px 50px rgba(255,255,255,0.45);
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.navbar img{
+    width: 100px;
+}
+.navbar li{
+    font-family: Open Sans;
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    font-size: 15px;
+}
+.navbar h1{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 2px;
+    
+}
+/* NAV TERMINADO */
+/* COMIENZA SECTION 1 */
+.titulo-tshirt{
+    font-size: 22px;
+    text-align: center;
+    padding: 3rem;
+}
+.container-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-img img{
+    width: 180px;
+}
+.container-img h3{
+    font-size: 10px;
+}
+/* SECTION 1 TERMINADO */
+/* COMIENZAN CARDS */
+.cards-text{
+    font-family: "PT Sans";
+    width: 80%;
+    height: 250px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.21); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.21);
+margin: 20px 0;
+}
+
+.cards{
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #e9ecef;
+    padding: 1rem;
+    
+}
+.fa-solid.fa-face-smile-wink,.fa-solid.fa-hand-point-left,.fa-solid.fa-question{
+    font-size: 30px;
+}
+.title-cards{
+    padding: 1rem;
+}
+/* TERMINAN CARDS */
+/* COMIENZA APARTADO CONTACTO */
+.contacto-container h3{
+    font-size: 30px;
+    text-align: center;
+}
+.todo{
+    display: flex;
+}
+.ubi1{
+    background-color: salmon;
+    margin: 10px;
+    width: 40%;
+    height: 120px;
+    text-align: center;
+     
+}
+.ubi2{
+    background-color: aqua;
+    margin: 10px;
+width: 40%;
+height: 120px;
+text-align: center;
+
+}
+.iconos-contacto{
+    font-size: 25px;
+    color: black;
+}
+}
+/* MEDIA 320 TERMINADO */
+
+
+
+/* COMIENZA MEDIA 375 */
+
+@media (min-width: 375px){
+    header{
+        width: 100%;
+    }
+    /* COMIENZA NAV */
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   .navbar h1{
+    text-align: center;
+    margin-top: 20px;
+   }
+   .navbar img{
+    width: 150px;
+    margin: 0 auto;
+   }
+   .navbar li{
+    text-align: center;
+    display: inline;
+    margin: 0 15px;
+    font-size: 20px;
+   }
+   /* TERMINA NAV */
+   /* COMIENZA BACKGROUND IMAGE */
+   .background-body img{
+   margin: 50px 20px;
+    width: 90%;
+    height: 300px;
+    -webkit-box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, inset -5px 2px 50px 50px rgba(255,255,255,0.45); 
+box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, inset -5px 2px 50px 50px rgba(255,255,255,0.45);
+   }
+   /* TERMINA BACKGROUND IMAGE */
+   /* COMIENZA SECTION 1 */
+   .container-img img{
+    width: 200px;
+    display: flex;
+    margin: 0 auto;
+}
+.titulo-tshirt{
+    text-align: center;
+    margin: 10px 0px 50px 0px;
+}
+.tshirt-name{
+    text-align: center;
+}
+.productos{
+    margin: 50px;
+}
+/* TERMINA SECTION 1 */
+/* COMIENZAN CARDS */
+.cards-text{
+    font-family: "PT Sans";
+    width: 80%;
+    height: 250px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.21); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.21);
+margin: 20px 0;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #e9ecef;
+    padding: 1rem;
+    
+}
+.cards p{
+    font-size: 25px;
+}
+.fa-solid.fa-face-smile-wink,.fa-solid.fa-hand-point-left,.fa-solid.fa-question{
+    font-size: 30px;
+}
+.title-cards{
+    padding: 1rem;
+}
+/* TERMINA CARDS */
+/* COMIENZA CONTACT US */
+.contacto-container{
+    background-color: #cccdce;
+}
+.contacto-container h3{
+    font-size: 30px;
+    text-align: center;
+}
+.todo{
+    display: flex;
+    justify-content: center; 
+}
+.todo li{
+    margin: 5px;
+    font-size: 18px;
+}
+.ubi1{
+    margin: 10px;
+    width: 40%;
+    height: 120px;
+    text-align: center;
+     
+}
+.ubi2{
+    margin: 10px;
+width: 40%;
+height: 120px;
+text-align: center;
+
+}
+.iconos-contacto{
+    font-size: 25px;
+    background-color: #cccdce;
+   
+}
+.fa-brands.fa-instagram{
+    transition: all 0.3s;
+    transform: scale(1.2);
+    color: #f07167;
+      
+}
+.fa-brands.fa-facebook{
+    transition: all 0.3s;
+    transform:  scale(1.2);
+    color:#3b5998;
+}
+.fa-brands.fa-twitter{
+    transition: all 0.3s;
+    transform: scale(1.2);
+    color:#00acee;
+}
+.fa-brands.fa-whatsapp{
+    transition: all 0.3s;
+    transform: scale(1.2);
+    color:#25D366;
+}
+
+/* TERMINA CONTACT US */
+/* COMIENZA FOOTER */
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.pill{
+    font-size: 40px;
+    text-align: center;
+    animation: flooting 3s ease-in-out infinite;
+    animation-direction: alternate;
+    color: white;
+}
+@keyframes flooting {
+  0%{
+    transform: translateY(0);
+  }
+
+  100%{
+    transform: translateY(20px);
+
+  }  
+}
+   
+}

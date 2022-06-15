@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lobster&family=Noto+Sans&family=Open+Sans:ital,wght@0,400;1,300&family=PT+Sans+Narrow&family=Playfair+Display:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media(max-width: 321px){
+header{
+    width: 100%;
+}
+.nav-mobile img{
+    width: 100px;
+}
+.nav-mobile li{
+    font-size: 15px;
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    font-family: Open Sans;
+}
+.nav-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+}
